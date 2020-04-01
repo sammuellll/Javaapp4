@@ -18,10 +18,7 @@ public class JavaApplication4 {
         double bki = kilo / (boy*boy);
         
         System.out.print("Boy kilo indexi = " + bki );
-        
-        
-        
-        
+     
     }
     
 }
