@@ -9,15 +9,15 @@ public class JavaApplication4 {
    
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Boyunuzu giriniz (or: 1.73) ");
+        System.out.print("Boyunuzu giriniz (or: 1.73) = ");
         double boy = scanner.nextDouble();
        
-        System.out.println("Kilonuzu giriniz  ");
+        System.out.print("Kilonuzu giriniz = ");
         double kilo = scanner.nextDouble();
         
         double bki = kilo / (boy*boy);
         
-        System.out.println("Boy kilo indexi =  " + bki );
+        System.out.print("Boy kilo indexi = " + bki );
         
         
         
